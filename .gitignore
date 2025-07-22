@@ -1,0 +1,20 @@
+/build
+/dist
+__pycache__/
+*.py[cod]
+DEV.ENV
+BUILD.ENV
+APP.ENV
+
+# Nuitka Build and Caches
+main.build/
+main.dist/
+main.onefile-build/
+build.nsi
+
+# NSIS Build cahces
+.wix
+
+# Test files
+test.py
+test*.*
